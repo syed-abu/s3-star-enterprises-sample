@@ -1,10 +1,11 @@
-body{
+/*body{
 	position: relative;
 	margin:0px;
 }
 .navi{
 	position: absolute;
-    width: 1280px;
+    width: 100%;
+    min-width: 736px;
     height: 89px;
     left: 0px;
     top: 0px;
@@ -14,7 +15,7 @@ body{
     mix-blend-mode: normal;
     border: 0.890047px solid #000000;
     box-sizing: border-box;
-    overflow: auto;
+    
 }
 .navi > a > img{
 	position: absolute;
@@ -74,10 +75,17 @@ line-height: 25px;
 color: #302D68;
 
 }
-
+*/
+#con:hover{
+    background-color: #302D68;
+    border-radius: 5px;
+    color: white;
+    
+}  
+/*
 #abo{
 	position: absolute;
-width: 108.14px;
+width: 90.14px;
 height: 29.82px;
 left: 1145.49px;
 top: 10.37px;
@@ -90,3 +98,140 @@ line-height: 25px;
 
 color: #302D68;
 }
+*/
+#abo:hover{
+    background-color: #302D68;
+    border-radius: 5px;
+    color: white;
+}
+
+body{
+    margin: 0px;
+}
+
+.navi{
+     padding: 5PX 5PX;
+     border-bottom: 1PX solid black;
+     background-color: #E5E5E5;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     height: 89px;
+     
+}
+
+.navi > #row-1 > a{
+    text-decoration: none;
+}
+
+.navi > #row-2 > a{
+    text-decoration: none;
+}
+
+#images{
+    width: 105.47px;
+    margin-top: -15px;
+}
+
+#row-1{
+    display: flex;
+    align-items: center;
+    
+
+}
+#row-2{
+    display: flex;
+    align-items:center;
+    margin-right: 8px;
+
+}
+
+#abo{
+    width: 90.14px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 21.3611px;
+line-height: 30px;
+color: #302D68;
+padding-left: 10px;
+padding-right: 10px;
+
+margin-right: 10px;
+
+}
+
+#con{
+    width: 90.14px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 21.3611px;
+line-height: 30px;
+padding-left: 15px;
+padding-right: 0px;
+
+margin-right: 10px;
+
+color: #302D68;
+}
+
+#st{
+    width: 348.01px;
+    font-family: roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32.0417px;
+line-height: 38px;
+
+color: #302D68;
+margin-top: 10px;
+}
+
+#wr{
+    width: 185.13px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 21.3611px;
+line-height: 25px;
+
+color: #302D68;
+margin-left: 40px;
+margin-top: -25px;
+}
+
+/*
+.dropdown > ul{
+    width: 150px;
+    color: white;
+    background-color: #302D68;
+    list-style: none;
+    display: none;
+}*/
+
+
+.dropdown > ul {
+   padding: 0;
+   margin: 0;
+   width: 150px;
+   padding-right: 50px;
+   padding-left: 50px;
+   background-color: #302D68;
+   text-align: center;
+   color: white;
+   list-style: none;
+   border-radius: 10px;
+   margin-right: 70px;
+   display: block;
+   
+}
+
+.dropdown{
+    float: right;
+    
+    
+
+}
+
+
