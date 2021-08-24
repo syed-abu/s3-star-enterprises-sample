@@ -223,6 +223,7 @@ margin-top: -25px;
    border-radius: 10px;
    margin-right: 70px;
    border: 0.5px solid black;   
+   
 }
 
 
@@ -270,6 +271,11 @@ background: linear-gradient(269.94deg, #302D68 21.19%, #E5E5E5 63.95%);
 border: 0.890047px solid #000000;
 box-sizing: border-box;
 border-radius: 11.1256px;
+display: flex;
+justify-content: space-between;
+
+
+
 }
 
 #slide >.slide-1{
@@ -348,7 +354,17 @@ color: #302D68;
     float: right;
     width: 356.02px;
     height: 356.02px;
-    margin-top: 0px;
+    margin-top: 30px;
     margin-right: 50px;
     
+
+    
 }
+
+
+
+#slide >.slide-2{
+    display: flex;
+}
+
+/*end of slide 1*/
