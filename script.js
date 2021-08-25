@@ -19,3 +19,22 @@ var x = document.getElementById("dropdown");
   }
   */
 }
+
+
+/*this for slide animation */
+
+function f2(){
+  var y = document.getElementById("slide-02");
+      y.style.display = "none";
+}
+  
+function f3(){
+  var y = document.getElementById("slide");
+  var z=documnet.getElementById("slide-02")
+  if (y.style.display === "block") {
+    y.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    
