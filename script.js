@@ -21,20 +21,49 @@ var x = document.getElementById("dropdown");
 }
 
 
+
 /*this for slide animation */
 
-function f2(){
-  var y = document.getElementById("slide-02");
-      y.style.display = "none";
-}
-  
-function f3(){
-  var y = document.getElementById("slide");
-  var z=documnet.getElementById("slide-02")
-  if (y.style.display === "block") {
-    y.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-    
+        
+function nextbtn1(){
+
+  var s1=document.getElementById("slide");
+        var s2=document.getElementById("slide-02");
+        var s3=document.getElementById("slide-03");
+
+        s1.style.display = "none";
+        s2.style.display = "flex";
+        }
+
+
+        function nextbtn2(){
+
+                var s1=document.getElementById("slide");
+                var s2=document.getElementById("slide-02");
+                var s3=document.getElementById("slide-03");
+        
+                s2.style.display = "none";
+                s1.style.display = "flex";
+                }
+                
+
+                function nextbtn3(){
+
+                  var s1=document.getElementById("slide");
+                        var s2=document.getElementById("slide-02");
+                        var s3=document.getElementById("slide-03");
+                
+                        s2.style.display = "none";
+                        s3.style.display = "flex";
+                        }
+
+                        function nextbtn4(){
+
+                          var s1=document.getElementById("slide");
+                                var s2=document.getElementById("slide-02");
+                                var s3=document.getElementById("slide-03");
+                        
+                                s3.style.display = "none";
+                                s2.style.display = "flex";
+                                }
+/*slide animation  end*/
