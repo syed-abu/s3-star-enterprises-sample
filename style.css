@@ -806,3 +806,16 @@ color: #302D68;
 
 
 /*slide 3 finished*/
+
+
+
+
+#top-1{
+    border-top: 0.890047px solid #000000;
+    margin-top: 40px;
+
+}
+
+#top-1 > h1{
+    text-align: center;
+}
