@@ -24,6 +24,16 @@ var x = document.getElementById("dropdown");
 
 /*this for slide animation */
 
+
+function nextbtn0(){
+
+  var s1=document.getElementById("slide");
+        var s2=document.getElementById("slide-02");
+        var s3=document.getElementById("slide-03");
+
+        s1.style.display = "none";
+        s3.style.display = "flex";
+        }
         
 function nextbtn1(){
 
@@ -66,4 +76,17 @@ function nextbtn1(){
                                 s3.style.display = "none";
                                 s2.style.display = "flex";
                                 }
+
+
+                                function nextbtn5(){
+
+                                  var s1=document.getElementById("slide");
+                                        var s2=document.getElementById("slide-02");
+                                        var s3=document.getElementById("slide-03");
+                                
+                                        s3.style.display = "none";
+                                        s1.style.display = "flex";
+                                        }
 /*slide animation  end*/
+
+
