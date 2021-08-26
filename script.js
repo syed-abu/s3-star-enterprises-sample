@@ -90,3 +90,13 @@ function nextbtn1(){
 /*slide animation  end*/
 
 
+/*code for outside click start*/
+
+document.addEventListener('mouseup', function(e) {
+  var container = document.getElementById('dropdown');
+  if (!container.contains(e.target)) {
+      container.style.display = 'none';
+  }
+})
+
+/*code for outside click end*/
