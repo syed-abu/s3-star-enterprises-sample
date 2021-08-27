@@ -884,6 +884,13 @@ margin-bottom: 0px;
     border-radius: 10px;
     width: 200px;
     height: 300px;
+    display: grid;
 }
 
 /* product 1 end*/
+
+.main-content{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+}
+
