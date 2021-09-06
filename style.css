@@ -17,6 +17,26 @@ body{
     overflow-x: hidden;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #E5E5E5; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #302D68; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #A52A2A; 
+  }
+
 .navi{
      padding: 5PX 5PX;
      border-bottom: 1PX solid black;
@@ -114,14 +134,6 @@ margin-left: 40px;
 margin-top: -25px;
 }
 
-/*
-.dropdown > ul{
-    width: 150px;
-    color: white;
-    background-color: #302D68;
-    list-style: none;
-    display: none;
-}*/
 
 
 #dropdown > ul {
@@ -160,9 +172,8 @@ margin-top: -25px;
 
 }
 
-#dropdown > ul > li > a > img{
+#dropdown > ul > li > a > i{
     width: 25px;
-    padding-right: 10px;
     padding-top: 5px;
     
     
@@ -180,7 +191,7 @@ margin-top: -25px;
     
     display: none;
     position: absolute;
-    margin-left: 1000px;
+    margin-left: 1060px;
 }
 
 /*end of nav bar*/
@@ -838,6 +849,25 @@ margin-bottom: 0px;
 
 }
 
+#scm{
+     margin-top: 30px;
+}
+
+#smkc{
+    margin-top: 20px;
+}
+
+#sct{
+    margin-top: 40px;
+}
+
+#wekc{
+    margin-top: 25px;
+}
+#ackc{
+    margin-top: 40px;
+}
+
 
 @keyframes zoom {
     0%{
@@ -863,11 +893,11 @@ margin-bottom: 0px;
 }
 
 #main-content-2{
-    margin-left: 700px;
+    grid-template-columns: 250px 250px;
 }
 
 #main-content-3{
-    margin-left: 700px;
+    grid-template-columns: 250px 250px;
 }
 
 #topmost{
