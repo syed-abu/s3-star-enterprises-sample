@@ -366,7 +366,7 @@ margin-bottom: 0px;
 
 /* extra product for image start */
 
-#scm{
+/* #scm{
     margin-top: 30px;
 }
 
@@ -383,6 +383,92 @@ margin-bottom: 0px;
 }
 #ackc{
    margin-top: 40px;
-}
+} */
 
 /* extra product for image end */
+
+
+
+
+/*pop up box start */
+
+#popupbox{
+    position:fixed;
+    top: 20%;
+    left: 30%;
+    text-align: center;
+
+  
+width: 500px;
+/* left: 380px;
+top: 130px; */
+
+background: #302D68;
+border-radius: 25px;
+}
+
+#popupbox > h3{
+    color: #FFFF00;
+    font-family: Roboto Slab;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 5px;
+}
+
+#popupbox > h1{
+    font-family: Roboto Slab;
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+color: #FFFFFF;
+
+}
+
+#popupbox > .telephone{
+text-decoration: none;
+
+}
+
+#popupbox > .telephone >.telephoneh1{
+    
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 27px;
+border-radius: 8px;
+background-color: #FFFFFF;
+color: #000000;
+}
+
+#popupbox > .whatsapp{
+text-decoration: none;
+
+}
+
+#popupbox > .whatsapp >.whatsapph1{
+    
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 27px;
+border-radius: 8px;
+background-color: #179C0D;
+color: #FFFFFF;
+}
+
+#popupbox > .cancel{
+    text-decoration: none;
+    
+    }
+    
+    #popupbox > .cancel >.cancelh1{
+        
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    border-radius: 8px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    }

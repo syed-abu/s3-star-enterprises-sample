@@ -17,3 +17,11 @@ function f1(){
       })
 
 // code for dropdown end
+
+
+// code for pop up start
+
+function popupwe(){
+  document.getElementById("popupbox").style.display = "none";
+  
+}
