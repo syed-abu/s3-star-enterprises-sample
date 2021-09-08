@@ -323,7 +323,7 @@ margin-bottom: 0px;
     animation: zoom 1s forwards;
     border:1px solid #302D68;
     border-radius: 10px;
-    box-shadow: 0 2px 5px #ccc;
+    box-shadow: 0 2px 5px grey;
 
 }
 
@@ -366,14 +366,19 @@ margin-bottom: 0px;
 
 /* extra product for image start */
 
-/* #scm{
-    margin-top: 30px;
+.main-content > a > article > img{
+    margin-top: 25px;
 }
+
+#scm{
+    margin-top: 0px;
+}
+
 
 #smkc{
-   margin-top: 20px;
+   margin-top: 40px;
 }
-
+/*
 #sct{
    margin-top: 40px;
 }
@@ -397,14 +402,15 @@ margin-bottom: 0px;
     top: 20%;
     left: 30%;
     text-align: center;
-
-  
+    display: none;
 width: 500px;
 /* left: 380px;
 top: 130px; */
 
 background: #302D68;
 border-radius: 25px;
+box-shadow: 10px 10px 5px grey;
+animation: right-left 1s ;
 }
 
 #popupbox > h3{
@@ -415,6 +421,8 @@ font-weight: 500;
 font-size: 24px;
 line-height: 5px;
 }
+
+
 
 #popupbox > h1{
     font-family: Roboto Slab;
@@ -429,6 +437,13 @@ color: #FFFFFF;
 text-decoration: none;
 
 }
+
+#popupbox > .telephone > .telephoneh1:hover{
+    background-color: #DBDBDB;
+    /* color: #000029; */
+  
+}
+
 
 #popupbox > .telephone >.telephoneh1{
     
@@ -457,6 +472,11 @@ background-color: #179C0D;
 color: #FFFFFF;
 }
 
+#popupbox > .whatsapp >.whatsapph1:hover{
+    background-color: #117509;
+    /* color: #DBDBDB; */
+}
+
 #popupbox > .cancel{
     text-decoration: none;
     
@@ -472,3 +492,16 @@ color: #FFFFFF;
     background-color: #FF0000;
     color: #FFFFFF;
     }
+
+
+    #popupbox > .cancel >.cancelh1:hover{
+        background-color: #CC0000;
+    }
+
+
+    @keyframes right-left {
+        0%   { opacity:0; }
+        
+        100% { opacity:1; }
+    }
+    

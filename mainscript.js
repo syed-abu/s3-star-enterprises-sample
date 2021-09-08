@@ -21,6 +21,13 @@ function f1(){
 
 // code for pop up start
 
+function popupwedo(){
+  document.getElementById("popupbox").style.display = "block";
+  
+}
+
+
+
 function popupwe(){
   document.getElementById("popupbox").style.display = "none";
   

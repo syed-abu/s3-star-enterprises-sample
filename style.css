@@ -845,7 +845,7 @@ margin-bottom: 0px;
     animation: zoom 1s forwards;
     border:1px solid #302D68;
     border-radius: 10px;
-    box-shadow: 0 2px 5px #ccc;
+    box-shadow: 0 2px 5px grey;
 
 }
 
