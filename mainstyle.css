@@ -329,7 +329,7 @@ margin-bottom: 0px;
 
 .main-content{
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-columns: 250px 250px 250px 250px;
     row-gap: 40px;
     margin-left: 25px;
     justify-content: space-around;
@@ -376,13 +376,25 @@ margin-bottom: 0px;
 
 
 #smkc{
-   margin-top: 40px;
-}
-/*
-#sct{
-   margin-top: 40px;
+   margin-top: 50px;
 }
 
+#sct{
+   margin-top: 50px;
+}
+
+#sss{
+    width: 150px;
+}
+
+#ddd{
+    width: 150px;
+}
+
+#fff{
+    width: 150px;
+}
+/*
 #wekc{
    margin-top: 25px;
 }
