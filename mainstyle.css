@@ -387,12 +387,21 @@ margin-bottom: 0px;
     width: 150px;
 }
 
+
+#nnn{
+    width: 130px;
+}
+
 #ddd{
     width: 150px;
 }
 
 #fff{
     width: 150px;
+}
+
+#mmm{
+    margin-top: 50px;
 }
 /*
 #wekc{
