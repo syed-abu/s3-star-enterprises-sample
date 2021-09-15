@@ -917,6 +917,7 @@ margin-bottom: 0px;
 
 #top-4{
     padding-bottom: 40px;
+    width: 100vw;
 }
 
 /* footer start*/
@@ -982,3 +983,58 @@ line-height: 35px;
 
 
 /* footer end */
+
+
+/* media query for mobile screen in portrait mode start */
+
+
+@media screen and (max-width:400px) {
+    #slide > .left-key{
+        display: none;
+    }
+
+    #slide > .slide-2{
+        display: none;
+    }
+
+    #slide > .right-key{
+        display: none;
+    }
+
+    .navi > #row-2{
+        display: none;
+    }
+
+    #images{
+        width: 250.47px;
+        
+    }
+
+    #st{
+        font-size: 40.0417px;
+    }
+    
+    
+   
+
+
+    .main-content{
+        grid-template-columns:  250px;
+        
+    }
+
+    #main-content-2{
+        grid-template-columns: 250px;
+    }
+    
+    #main-content-3{
+        grid-template-columns: 250px;
+    }
+    
+   
+}
+
+
+
+
+/* media query for mobile screen in portrait mode end */
