@@ -1,25 +1,44 @@
+html{
+    font-size: 16px;
+}
+
+marquee{
+    margin-top: 1.875rem;
+    background-color: #E5E5E5;
+    color: #302D68;
+    font-size: 1.25rem;
+    font-family: roboto;
+    padding:0.313rem ;
+    font-weight: 2.5rem;
+    border-top: 0.056rem solid #000000;
+    border-bottom: 0.056rem solid #000000;
+}
+marquee > span{
+    color: #A52A2A;
+}
+
 
 #con:hover{
     background-color: #302D68;
-    border-radius: 5px;
+    border-radius:0.313rem;
     color: white;
     
 }  
 
 #abo:hover{
     background-color: #302D68;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     color: white;
 }
 
 body{
-    margin: 0px;
+    margin: 0rem;
     overflow-x: hidden;
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 13px;
+    width: 0.813rem;
   }
   
   /* Track */
@@ -38,19 +57,14 @@ body{
   }
 
 .navi{
-     padding: 5PX 5PX;
-     border-bottom: 1PX solid black;
+     padding: 0.313rem 0.313rem;
+     border-bottom: 0.063rem  solid black;
      background-color: #E5E5E5;
      display: flex;
      justify-content: space-between;
-     flex-wrap: wrap;
-     height: 89px;
-     position: relative;
-     width: 100vw;
-     
-     
-     
-     
+     height:5.563rem ;
+     position: relative; 
+     overflow: hidden;   
 }
 
 .navi > #row-1 > a{
@@ -62,8 +76,8 @@ body{
 }
 
 #images{
-    width: 105.47px;
-    margin-top: -15px;
+    width: 6.592rem;
+    margin-top: -0.938rem;
 }
 
 #row-1{
@@ -75,63 +89,63 @@ body{
 #row-2{
     display: flex;
     align-items:center;
-    margin-right: 0px;
+    margin-right: 0rem;
 
 }
 
 #abo{
-    width: 90.14px;
+    width: 5.634rem;
     font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 21.3611px;
-line-height: 30px;
+font-size:1.335rem;
+line-height: 1.875rem;
 color: #302D68;
-padding-left: 10px;
-padding-right: 10px;
+padding-left:0.625rem;
+padding-right: 0.625rem;
 
-margin-right: 40px;
+
 
 }
 
 #con{
-    width: 90.14px;
+    width: 5.634rem;
     font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 21.3611px;
-line-height: 30px;
-padding-left: 15px;
-padding-right: 0px;
+font-size: 1.335rem;
+line-height: 1.875rem;
+padding-left: 0.938rem;
+padding-right: 0rem;
 
-margin-right: 10px;
+margin-right: 0.625rem;
 
 color: #302D68;
 }
 
 #st{
-    width: 348.01px;
+    width: 21.751rem;
     font-family: roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 32.0417px;
-line-height: 38px;
+font-size: 2.003rem;
+line-height: 2.375rem;
 
 color: #302D68;
-margin-top: 10px;
+margin-top: 0.625rem;
 }
 
 #wr{
-    width: 185.13px;
+    width: 11.571rem;
     font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 21.3611px;
-line-height: 25px;
+font-size: 1.335rem;
+line-height: 1.563rem;
 
 color: #302D68;
-margin-left: 40px;
-margin-top: -25px;
+margin-left: 2.5rem;
+margin-top: -1.563rem;
 }
 
 
@@ -139,13 +153,13 @@ margin-top: -25px;
 #dropdown > ul {
    padding: 0;
    margin: 0;
-   width: 200px;
+   width: 12.5rem;
    
    background-color: #E5E5E5;
    text-align: center;
    list-style: none;
-   border-radius: 10px;
-   border: 0.5px solid black;
+   border-radius: 0.625rem;
+   border: 0.031rem solid black;
    
     
    
@@ -154,13 +168,13 @@ margin-top: -25px;
 
 
 #dropdown > ul > li{
-    padding: 10px;
+    padding: 0.625rem;
 
 }
 
 #dropdown > ul > li:hover{
     background-color: #302D68;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     
 
 }
@@ -173,8 +187,8 @@ margin-top: -25px;
 }
 
 #dropdown > ul > li > a > i{
-    width: 25px;
-    padding-top: 5px;
+    width: 1.563rem;
+    padding-top: 0.313rem;
     
     
     
@@ -191,23 +205,22 @@ margin-top: -25px;
     
     display: none;
     position: absolute;
-    margin-left: 970px;
+    margin-left: 60.625rem;
 }
 
 /*end of nav bar*/
 #slide{
-    
-width: 100vw;
-height: 381.83px;
-margin-top: 43px;
+height: 23.864rem;
+margin-top: 2.688rem;
 background: linear-gradient(269.94deg, #302D68 21.19%, #E5E5E5 63.95%);
-border: 0.890047px solid #000000;
+border: 0.056rem solid #000000;
 box-sizing: border-box;
-border-radius: 11.1256px;
+border-radius: 0.695rem;
 display: flex;
 justify-content: space-between;
 align-items: center;
 animation: right-left 1s ;
+overflow: hidden;
 
 
 
@@ -216,37 +229,37 @@ animation: right-left 1s ;
 
 
 #slide >.slide-1{
-    margin-left: 10px;
+    margin-left: 0.625rem;
     
 }
 
 #slide >.slide-1 > h1{
-width: 496.2px;
-height: 52.07px;
-left: 153.98px;
-top: 170.44px;
+width: 31.013rem;
+height: 3.254rem;
+left: 9.624rem;
+top: 10.653rem;
 
 
 font-family: Alfa Slab One;
 font-style: normal;
 font-weight: normal;
-font-size: 32.0417px;
-line-height: 44px;
+font-size: 2.003rem;
+line-height: 2.75rem;
 
 color: #302D68;
 }
 
 #slide >.slide-1 > h1 > span{
-    width: 496.2px;
-    height: 52.07px;
-    left: 153.98px;
-    top: 170.44px;
+    width: 31.013rem;
+    height: 3.254rem;
+    left: 9.624rem;
+    top: 10.653rem;
     
     font-family: Alfa Slab One;
     font-style: normal;
     font-weight: normal;
-    font-size: 32.0417px;
-    line-height: 44px;
+    font-size: 2.003rem;
+    line-height: 2.75rem;
     
     color: #A52A2A;
     }
@@ -254,27 +267,27 @@ color: #302D68;
 #slide >.slide-1 > h3{
     
 
-    width: 600px;
+    width:37.5rem;
 height: auto;
-left: 153.98px;
-top: 235.86px;
+left: 9.624rem;
+top:14.741rem;
 
 font-family: Montez;
 font-style: normal;
 font-weight: normal;
-font-size: 42.7222px;
-line-height: 56px;
-margin-top: 0px;
+font-size:2.67rem;
+line-height:3.5rem;
+margin-top: 0rem;
 
 color: #302D68;
 
 }
 #btn-shop{
-    width: 200px;
-    height: 40px;
+    width: 12.5rem;
+    height: 2.5rem;
     background: #A52A2A;
     color: white;
-    border-radius: 11.1256px;
+    border-radius: 0.695rem;
     font-family: roboto;
     border: none;
     outline: none;
@@ -289,11 +302,11 @@ color: #302D68;
 
 #img-1{
     float: right;
-    width: 356.02px;
-    height: 356.02px;
-    margin-top: 30px;
-    margin-right:0px;
-    padding-left: 70px;
+    width:22.251rem;
+    height:22.251rem;
+    margin-top: 1.875rem;
+    margin-right:0rem;
+    padding-left:4.375rem;
     
 
     
@@ -306,33 +319,33 @@ color: #302D68;
 }
 
 #slide > .left-key > button >img{
-    width: 30px;
+    width: 1.875rem;
     display: flex;
     
     
     
 }
 #slide > .left-key > button{
-    border-radius: 8px;
+    border-radius:0.5rem;
     background-color: #E5E5E5;
     color: white;
     font-family: roboto;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 #slide > .right-key > button{
-    border-radius: 8px;
+    border-radius:0.5rem;
     background-color: #302D68;
     color: white;
     font-family: roboto;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 10px;
-    margin-right:10px;
+    padding: 0.625rem;
+    
     
 }
 
@@ -349,7 +362,7 @@ color: #302D68;
 
 
 #slide > .right-key > button >img{
-    width: 30px;
+    width: 1.875rem;
     display: flex;
     
     
@@ -387,19 +400,18 @@ color: #302D68;
 
 
 #slide-02{
-    
-width: 100vw;
-height: 381.83px;
-margin-top: 43px;
+height: 23.864rem;
+margin-top: 2.688rem;
 background: linear-gradient(269.94deg, #302D68 21.19%, #E5E5E5 63.95%);
-border: 0.890047px solid #000000;
+border: 0.056rem solid #000000;
 box-sizing: border-box;
-border-radius: 11.1256px;
+border-radius: 0.695rem;
 display: flex;
 justify-content: space-between;
 align-items: center;
 display: none;
 animation: right-left 1s ;
+overflow: hidden;
 
 
 
@@ -407,19 +419,19 @@ animation: right-left 1s ;
 }
 
 #slide-02 > .left-key > button{
-    border-radius: 8px;
+    border-radius:0.5rem;
     background-color: #E5E5E5;
     color: white;
     font-family: roboto;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 
 #slide-02 > .left-key > button >img{
-    width: 30px;
+    width: 1.875rem;
     display: flex;
     
     
@@ -433,38 +445,38 @@ animation: right-left 1s ;
 }
 
 #slide-02 >.slide-1{
-    margin-left: 10px;
+    margin-left: 0.625rem;
     
 }
 
 #slide-02 >.slide-1 > h1{
-width: 600.2px;
-height: 52.07px;
-left: 153.98px;
-top: 170.44px;
+width:37.513rem;
+height: 3.254rem;
+left: 9.624rem;
+top: 10.653rem;
 
 
 font-family: Alfa Slab One;
 font-style: normal;
 font-weight: normal;
-font-size: 32.0417px;
-line-height: 44px;
+font-size: 2.003rem;
+line-height: 2.75rem;
 
 color: #302D68;
 
 }
 
 #slide-02 >.slide-1 > h1 > span{
-    width: 496.2px;
-    height: 52.07px;
-    left: 153.98px;
-    top: 170.44px;
+    width: 31.013rem;
+    height: 3.254rem;
+    left: 9.624rem;
+    top: 10.653rem;
     
     font-family: Alfa Slab One;
     font-style: normal;
     font-weight: normal;
-    font-size: 32.0417px;
-    line-height: 44px;
+    font-size: 2.003rem;
+    line-height: 2.75rem;
     
     color: #A52A2A;
     
@@ -473,28 +485,28 @@ color: #302D68;
 #slide-02 >.slide-1 > h3{
     
 
-    width: 600px;
+    width:37.5rem;
 height: auto;
-left: 153.98px;
-top: 235.86px;
+left: 9.624rem;
+top:14.741rem;
 
 font-family: Montez;
 font-style: normal;
 font-weight: normal;
-font-size: 42.7222px;
-line-height: 56px;
-margin-top: 0px;
+font-size:2.67rem;
+line-height:3.5rem;
+margin-top: 0rem;
 
 color: #302D68;
 
 
 }
 #btn-shoping{
-    width: 200px;
-    height: 40px;
+    width: 12.5rem;
+    height: 2.5rem;
     background: #A52A2A;
     color: white;
-    border-radius: 11.1256px;
+    border-radius: 0.695rem;
     font-family: roboto;
     border: none;
     outline: none;
@@ -509,11 +521,11 @@ color: #302D68;
 
 #img-2{
     float: right;
-    width: 356.02px;
-    height: 356.02px;
-    margin-top: 30px;
-    margin-right:0px;
-    padding-left: 70px;
+    width:22.251rem;
+    height:22.251rem;
+    margin-top: 1.875rem;
+    margin-right:0rem;
+    padding-left:4.375rem;
     
 
     
@@ -526,15 +538,15 @@ color: #302D68;
 }
 
 #slide-02 > .right-key > button{
-    border-radius: 8px;
+    border-radius:0.5rem;
     background-color: #302D68;
     color: white;
     font-family: roboto;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 10px;
-    margin-right:10px;
+    padding: 0.625rem;
+
 }
 
 #slide-02 > .right-key > button:hover{
@@ -543,7 +555,7 @@ color: #302D68;
 }
 
 #slide-02 > .right-key > button >img{
-    width: 30px;
+    width: 1.875rem;
     display: flex;
     
     
@@ -559,18 +571,18 @@ color: #302D68;
 
 #slide-03{
     
-width: 100vw;
-height: 381.83px;
-margin-top: 43px;
+height: 23.864rem;
+margin-top: 2.688rem;
 background: linear-gradient(269.94deg, #302D68 21.19%, #E5E5E5 63.95%);
-border: 0.890047px solid #000000;
+border: 0.056rem solid #000000;
 box-sizing: border-box;
-border-radius: 11.1256px;
+border-radius: 0.695rem;
 display: flex;
 justify-content: space-between;
 align-items: center;
 display: none;
 animation: right-left 1s ;
+overflow: hidden;
 
 
 
@@ -578,19 +590,19 @@ animation: right-left 1s ;
 }
 
 #slide-03 > .left-key > button{
-    border-radius: 8px;
+    border-radius:0.5rem;
     background-color: #E5E5E5;
     color: white;
     font-family: roboto;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 
 #slide-03 > .left-key > button >img{
-    width: 30px;
+    width: 1.875rem;
     display: flex;
     
     
@@ -604,38 +616,38 @@ animation: right-left 1s ;
 }
 
 #slide-03 >.slide-1{
-    margin-left: 10px;
+    margin-left: 0.625rem;
     
 }
 
 #slide-03 >.slide-1 > h1{
-width: 600.2px;
-height: 52.07px;
-left: 153.98px;
-top: 170.44px;
+width:37.513rem;
+height: 3.254rem;
+left: 9.624rem;
+top: 10.653rem;
 
 
 font-family: Alfa Slab One;
 font-style: normal;
 font-weight: normal;
-font-size: 32.0417px;
-line-height: 44px;
+font-size: 2.003rem;
+line-height: 2.75rem;
 
 color: #302D68;
 
 }
 
 #slide-03 >.slide-1 > h1 > span{
-    width: 496.2px;
-    height: 52.07px;
-    left: 153.98px;
-    top: 170.44px;
+    width: 31.013rem;
+    height: 3.254rem;
+    left: 9.624rem;
+    top: 10.653rem;
     
     font-family: Alfa Slab One;
     font-style: normal;
     font-weight: normal;
-    font-size: 32.0417px;
-    line-height: 44px;
+    font-size: 2.003rem;
+    line-height: 2.75rem;
     
     color: #A52A2A;
     
@@ -644,28 +656,28 @@ color: #302D68;
 #slide-03 >.slide-1 > h3{
     
 
-    width: 600px;
+    width:37.5rem;
 height: auto;
-left: 153.98px;
-top: 235.86px;
+left: 9.624rem;
+top:14.741rem;
 
 font-family: Montez;
 font-style: normal;
 font-weight: normal;
-font-size: 42.7222px;
-line-height: 56px;
-margin-top: 0px;
+font-size:2.67rem;
+line-height:3.5rem;
+margin-top: 0rem;
 
 color: #302D68;
 
 
 }
 #btn-shoping-1{
-    width: 200px;
-    height: 40px;
+    width: 12.5rem;
+    height: 2.5rem;
     background: #A52A2A;
     color: white;
-    border-radius: 11.1256px;
+    border-radius: 0.695rem;
     font-family: roboto;
     border: none;
     outline: none;
@@ -680,11 +692,11 @@ color: #302D68;
 
 #img-3{
     float: right;
-    width: 356.02px;
-    height: 500.02px;
-    margin-top: 30px;
-    margin-right:0px;
-    padding-left: 70px;
+    width:22.251rem;
+    height: 31.251rem;
+    margin-top: 1.875rem;
+    margin-right:0rem;
+    padding-left:4.375rem;
     
     
 
@@ -698,15 +710,15 @@ color: #302D68;
 }
 
 #slide-03 > .right-key > button{
-    border-radius: 8px;
+    border-radius:0.5rem;
     background-color: #302D68;
     color: white;
     font-family: roboto;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 10px;
-    margin-right:10px;
+    padding: 0.625rem;
+
 }
 
 #slide-03 > .right-key > button:hover{
@@ -715,7 +727,7 @@ color: #302D68;
 }
 
 #slide-03 > .right-key > button >img{
-    width: 30px;
+    width: 1.875rem;
     display: flex;
     
     
@@ -756,31 +768,35 @@ color: #302D68;
 
 
 #top-1{
-    border-top: 0.890047px solid #000000;
-    border-bottom: 0.890047px solid #000000;
-    margin-top: 40px;
+    border-top: 0.056rem solid #000000;
+    border-bottom: 0.056rem solid #000000;
+    margin-top: 2.5rem;
     background-color: #F2F2F2;
-    width: 100vw;
-    padding-bottom: 40px;
+   /*width: 100vw;*/
+    padding-bottom: 2.5rem;
+    overflow: hidden;
 
 }
 
 #top-2{
     
-    margin-top: 40px;
+    margin-top: 2.5rem;
     background-color: white;
-    width: 100vw;
-    margin-bottom: 40px;
+   /*width: 100vw;*/
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    overflow: hidden;
 
 }
 
 #top-3{
-    border-top: 0.890047px solid #000000;
-    border-bottom: 0.890047px solid #000000;
-    margin-top: 40px;
+    border-top: 0.056rem solid #000000;
+    border-bottom: 0.056rem solid #000000;
+    margin-top: 2.5rem;
     background-color: #F2F2F2;
-    width: 100vw;
-    padding-bottom: 40px;
+   /*width: 100vw;*/
+    padding-bottom: 2.5rem;
+    overflow: hidden;
 
 }
 
@@ -789,14 +805,14 @@ color: #302D68;
 /* product 1 start*/
 .product-h{
     text-align: center;
-    width: 100vw;
-height: 40.01px;
+   /*width: 100vw;*/
+height: 2.501rem;
 color: #302D68;
 font-family: Roboto Slab;
 font-style: normal;
 font-weight: bold;
-font-size: 40.88px;
-line-height: 57px;
+font-size: 2.555rem;
+line-height: 3.563rem;
 }
 
 .product-s{
@@ -807,19 +823,19 @@ line-height: 57px;
 
 
 .main-img{
-    width: 177px;
+    width: 11.063rem;
 }
 
 .product-desc-h{
-    width: 185px;
-height: 128.44px;
+    width: 11.563rem;
+height: 128.2.75rem;
 font-family: Roboto Slab;
 font-style: normal;
 font-weight: normal;
-font-size: 32px;
+font-size: 2rem;
 color: #302D68;
-margin-top: 0px;
-margin-bottom: 0px;
+margin-top: 0rem;
+margin-bottom: 0rem;
 }
 
 
@@ -827,11 +843,11 @@ margin-bottom: 0px;
 
 
 .main-content > a > article{
-    border:1px solid gray;
-    padding: 10px;
-    border-radius: 10px;
-    width: 200px;
-    height: 300px;
+    border:0.063rem solid gray;
+    padding: 0.625rem;
+    border-radius: 0.625rem;
+    width: 12.5rem;
+    height: 18.75rem;
     display: grid;
     background-color: #f2f2f2;
 }
@@ -843,29 +859,29 @@ margin-bottom: 0px;
 
 .main-content > a> article:hover{
     animation: zoom 1s forwards;
-    border:1px solid #302D68;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px grey;
+    border:0.063rem solid #302D68;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.125rem 0.313rem grey;
 
 }
 
 #scm{
-     margin-top: 30px;
+     margin-top: 1.875rem;
 }
 
 #smkc{
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 #sct{
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 #wekc{
-    margin-top: 25px;
+    margin-top: 1.563rem;
 }
 #ackc{
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 
@@ -884,72 +900,73 @@ margin-bottom: 0px;
 
 .main-content{
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px 250px;
-    row-gap: 40px;
-    margin-left: 25px;
+    grid-template-columns: 15.625rem 15.625rem 15.625rem 15.625rem 15.625rem;
+    row-gap: 2.5rem;
+    margin-left: 1.563rem;
     justify-content: space-around;
    
     
 }
 
 #main-content-2{
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 15.625rem 15.625rem;
 }
 
 #main-content-3{
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 15.625rem 15.625rem;
 }
 
 #topmost{
-    margin-top: 0px;
-    margin-left: 35px;
-    width: 100px;
+    margin-top: 0rem;
+    margin-left: 2.188rem;
+    width: 6.25rem;
 }
 
 
 #map{
-    width: 100vw;
-    border: 0.890047px solid #000000;
-    border-radius: 10px;
+   /*width: 100vw;*/
+   width: 100%;
+    border: 0.056rem solid #000000;
+    border-radius: 0.625rem;
     
 }
 
 
 #top-4{
-    padding-bottom: 40px;
-    width: 100vw;
+    padding-bottom: 2.5rem;
+   /*width: 100vw;*/
 }
 
 /* footer start*/
 
 #top-5{
-    width:100vw;
-height: 310px;
+height: 19.375rem;
 background-color: #302D68;
-border-top: 0.5px solid black;
+border-top: 0.031rem solid black;
+overflow: hidden;
 }
 
 .aboutus{
     text-align: center;
-    width: 100vw;
-height: 40.01px;
+   /*width: 100vw;*/
+height: 2.501rem;
 color: white;
 font-family: Roboto Slab;
 font-style: normal;
 font-weight: bold;
-font-size: 40.88px;
-line-height: 57px;
-margin-top: 10px;
+font-size: 2.555rem;
+line-height: 3.563rem;
+margin-top: 0.625rem;
 }
 
 .foot-1 >h3{
-width: 728.89px;
-height: 149.33px;
+width:45.556rem;
+height:9.333rem;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 17.7778px;
-line-height: 30px;
+font-size: 1.111rem;
+line-height: 1.875rem;
 color: white;
 }
 
@@ -958,13 +975,13 @@ color: white;
 }
 
 .foot-2 > a >h3{
-    width: 350.89px;
+    width: 21.931rem;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 17.7778px;
+font-size: 1.111rem;
 color: white;
-line-height: 35px;
+line-height: 2.188rem;
 }
 .foot-2 > a >h3:hover{
     color:yellowgreen;
@@ -976,9 +993,8 @@ line-height: 35px;
 
 .flexwrapfooter{
     display: flex;
-    flex: wrap;
     justify-content: space-between;
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 
@@ -988,7 +1004,7 @@ line-height: 35px;
 /* media query for mobile screen in portrait mode start */
 
 
-@media screen and (max-width:400px) {
+/* @media screen and (max-width:400px) {
     #slide > .left-key{
         display: none;
     }
@@ -1005,36 +1021,88 @@ line-height: 35px;
         display: none;
     }
 
-    #images{
-        width: 250.47px;
-        
+    .foot-2{
+        display: none;
     }
 
-    #st{
-        font-size: 40.0417px;
-    }
-    
-    
-   
 
+    .navi{
+        width: 100%;
+    }
 
     .main-content{
-        grid-template-columns:  250px;
+        grid-template-columns:  15.625rem;
         
     }
 
     #main-content-2{
-        grid-template-columns: 250px;
+        grid-template-columns: 15.625rem;
     }
     
     #main-content-3{
-        grid-template-columns: 250px;
+        grid-template-columns: 15.625rem;
     }
     
    
 }
-
+ */
 
 
 
 /* media query for mobile screen in portrait mode end */
+/* 
+
+@media screen and (max-width:1300px) {
+    .main-content{
+        grid-template-columns:  15.625rem 15.625rem 15.625rem 15.625rem;
+        
+    }
+
+    
+}
+
+
+@media screen and (max-width:900px) {
+    .main-content{
+        grid-template-columns:   15.625rem 15.625rem 15.625rem;
+        
+    }
+
+    
+}
+
+
+@media screen and (max-width:900px) {
+    .main-content{
+        grid-template-columns:   15.625rem 15.625rem 15.625rem;
+        
+    }
+
+    
+} */
+
+
+
+@media screen and (max-width:400px) {
+    .main-content{
+        
+        grid-template-columns: 15.625rem ;
+        
+        
+    }
+
+    #main-content-2{
+        
+        grid-template-columns: 15.625rem ;
+        
+        
+    }
+
+    #main-content-3{
+        
+        grid-template-columns: 15.625rem ;
+        
+        
+    }
+    
+}
