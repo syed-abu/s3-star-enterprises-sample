@@ -280,6 +280,7 @@ line-height: 3.563rem;
 
 .main-img{
     width: 11.063rem;
+    border-radius: 0.938rem;
 }
 
 .product-desc-h{
@@ -537,3 +538,168 @@ color: #FFFFFF;
     
 
     /* popup end */
+
+
+    
+/* media query for mobile screen in portrait mode start */
+
+@media screen and (max-width:400px) {
+    
+    /* navi */
+    #st{
+        font-size: 1.378rem;
+    }
+    #wr{
+        font-size: 1.148rem;
+    }
+    #images{
+        width: 5.655rem;
+    }
+    /* navi */
+
+
+    /* footer */
+    .foot-1 >h3 {
+        font-size: 0.549rem;
+    }
+
+    #top-5{
+        height: 33rem;
+    }
+
+    .flexwrapfooter{
+        flex-wrap: wrap;
+    }
+
+    .foot-1 >h3 {
+        padding-bottom: 3.125rem;
+    }
+    
+
+    /* footer */
+
+    .main-content{
+        grid-template-columns: 15.625rem ;
+    }
+
+    .product-h{
+        padding-bottom: 3.125rem;
+    }
+
+    /* popup */
+    #popupbox > h3{
+        font-size: 1rem;
+
+    }
+    #popupbox{
+        top: 15%;
+        left: 5%;
+        width: 17.75rem;
+    }
+    /* popup */
+
+
+
+}
+
+/* media query for mobile screen in portrait mode end */
+
+
+
+
+
+
+
+/* media query for tablet screen in landscape mode start */
+@media screen and (min-width:601px) and (max-width:800px) {
+    
+
+    .main-content{
+        
+        grid-template-columns: 15.625rem 15.625rem 15.625rem ;
+    }
+
+    #dropdown {
+        margin-left: 27.625rem;
+    }
+
+    #popupbox{
+        left: 15%;
+    }
+    /* footer */
+    
+    #top-5{
+        height: 33rem;
+    }
+
+    .flexwrapfooter{
+        flex-wrap: wrap;
+    }
+
+    .foot-1 >h3 {
+        padding-bottom: 3.125rem;
+    }
+    
+
+    /* footer */
+}
+/* media query for tablet screen in landscape mode end */
+
+
+
+
+/* media query for tablet screen in portrait mode start */
+@media screen and (min-width:401px) and (max-width:600px){
+    #abo{
+        display: none;
+    }
+    #dropdown{
+        margin-left: 15.625rem;
+    }
+    .main-content{
+        
+        grid-template-columns: 15.625rem 15.625rem ;
+        
+        
+    }
+
+    #popupbox{
+        left: 5%;
+    }
+    .product-h{
+        padding-bottom: 3.125rem;
+    }
+
+     /* footer */
+    
+     #top-5{
+        height: 33rem;
+    }
+
+    .flexwrapfooter{
+        flex-wrap: wrap;
+    }
+
+    .foot-1 >h3 {
+        padding-bottom: 3.125rem;
+    }
+    
+
+    /* footer */
+}
+
+/* media query for tablet screen in portrait mode start */
+
+/* media query for small laptop screen in start */
+@media screen and (min-width:801px) and (max-width:1030px){
+    #dropdown{
+        margin-left: 40.625rem;
+    }
+
+    
+
+    
+}
+
+
+/* media query for small laptop screen in start */

@@ -1003,86 +1003,6 @@ line-height: 2.188rem;
 
 /* media query for mobile screen in portrait mode start */
 
-
-/* @media screen and (max-width:400px) {
-    #slide > .left-key{
-        display: none;
-    }
-
-    #slide > .slide-2{
-        display: none;
-    }
-
-    #slide > .right-key{
-        display: none;
-    }
-
-    .navi > #row-2{
-        display: none;
-    }
-
-    .foot-2{
-        display: none;
-    }
-
-
-    .navi{
-        width: 100%;
-    }
-
-    .main-content{
-        grid-template-columns:  15.625rem;
-        
-    }
-
-    #main-content-2{
-        grid-template-columns: 15.625rem;
-    }
-    
-    #main-content-3{
-        grid-template-columns: 15.625rem;
-    }
-    
-   
-}
- */
-
-
-
-/* media query for mobile screen in portrait mode end */
-/* 
-
-@media screen and (max-width:1300px) {
-    .main-content{
-        grid-template-columns:  15.625rem 15.625rem 15.625rem 15.625rem;
-        
-    }
-
-    
-}
-
-
-@media screen and (max-width:900px) {
-    .main-content{
-        grid-template-columns:   15.625rem 15.625rem 15.625rem;
-        
-    }
-
-    
-}
-
-
-@media screen and (max-width:900px) {
-    .main-content{
-        grid-template-columns:   15.625rem 15.625rem 15.625rem;
-        
-    }
-
-    
-} */
-
-
-
 @media screen and (max-width:400px) {
     .main-content{
         
@@ -1104,5 +1024,198 @@ line-height: 2.188rem;
         
         
     }
+
+    /* navi */
+    #st{
+        font-size: 1.378rem;
+    }
+    #wr{
+        font-size: 1.148rem;
+    }
+    #images{
+        width: 5.655rem;
+    }
+    /* navi */
+
+
+    #slide > .left-key > button >img {
+        display: none;
+    }
+
+    #slide >.slide-1 > h1{
+        font-size:1.566rem ;
+    }
+    #slide >.slide-1 > h1 > span{
+        font-size: 1.566rem;
+    }
+    .product-h{
+        padding-bottom: 7.5rem;
+    }
+
+    /* footer */
+    .foot-1 >h3 {
+        font-size: 0.549rem;
+    }
+
+    #top-5{
+        height: 33rem;
+    }
+
+    .flexwrapfooter{
+        flex-wrap: wrap;
+    }
+
+    .foot-1 >h3 {
+        padding-bottom: 3.125rem;
+    }
     
+
+    /* footer */
 }
+
+/* media query for mobile screen in portrait mode end */
+
+
+
+
+/* media query for tablet screen in landscape mode start */
+@media screen and (min-width:601px) and (max-width:800px) {
+    #slide > .left-key > button >img{
+        display: none;
+    }
+    #img-1{
+        display: none;
+    }
+    #slide > .right-key > button >img{
+        display: none;
+    }
+
+    .main-content{
+        
+        grid-template-columns: 15.625rem 15.625rem 15.625rem ;
+        
+        
+    }
+
+    #main-content-2{
+        
+        grid-template-columns: 15.625rem 15.625rem;
+        
+        
+    }
+
+    #main-content-3{
+        
+        grid-template-columns: 15.625rem 15.625rem;
+        
+        
+    }
+
+
+    #dropdown {
+        margin-left: 27.625rem;
+    }
+    /* footer */
+    
+    #top-5{
+        height: 33rem;
+    }
+
+    .flexwrapfooter{
+        flex-wrap: wrap;
+    }
+
+    .foot-1 >h3 {
+        padding-bottom: 3.125rem;
+    }
+    
+
+    /* footer */
+}
+/* media query for tablet screen in landscape mode end */
+
+
+
+/* media query for tablet screen in portrait mode start */
+@media screen and (min-width:401px) and (max-width:600px){
+    #abo{
+        display: none;
+    }
+
+    #slide > .left-key > button >img{
+        display: none;
+    }
+    #dropdown{
+        margin-left: 15.625rem;
+    }
+    .main-content{
+        
+        grid-template-columns: 15.625rem 15.625rem ;
+        
+        
+    }
+
+    #main-content-2{
+        
+        grid-template-columns: 15.625rem 15.625rem;
+        
+        
+    }
+
+    #main-content-3{
+        
+        grid-template-columns: 15.625rem 15.625rem;
+        
+        
+    }
+
+    .product-h{
+        padding-bottom: 3.125rem;
+    }
+
+     /* footer */
+    
+     #top-5{
+        height: 33rem;
+    }
+
+    .flexwrapfooter{
+        flex-wrap: wrap;
+    }
+
+    .foot-1 >h3 {
+        padding-bottom: 3.125rem;
+    }
+    
+
+    /* footer */
+}
+
+/* media query for tablet screen in portrait mode start */
+
+
+/* media query for small laptop screen in start */
+@media screen and (min-width:801px) and (max-width:1030px){
+    #dropdown{
+        margin-left: 40.625rem;
+    }
+
+    #slide > .left-key > button >img{
+        display: none;
+    }
+
+    #slide > .right-key > button >img{
+        display: none;
+    }
+
+
+    .main-content{
+        
+        grid-template-columns: 15.625rem 15.625rem  15.625rem  15.625rem ;
+        
+        
+    }
+}
+
+
+/* media query for small laptop screen in start */
