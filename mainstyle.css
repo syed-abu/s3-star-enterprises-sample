@@ -585,6 +585,14 @@ color: #FFFFFF;
     .product-h{
         padding-bottom: 3.125rem;
     }
+    
+    #needed{
+        padding-bottom: 6.125rem;
+    }
+    
+    #neededs{
+        padding-bottom: 6.125rem;
+    }
 
     /* popup */
     #popupbox > h3{
