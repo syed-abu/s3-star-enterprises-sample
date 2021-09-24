@@ -304,7 +304,7 @@ margin-bottom: 0rem;
     padding: 0.625rem;
     border-radius: 0.625rem;
     width: 12.5rem;
-    height: 18.75rem;
+    height: 20.75rem;
     display: grid;
     background-color: #f2f2f2;
 }
@@ -593,7 +593,7 @@ color: #FFFFFF;
     }
     #popupbox{
         top: 15%;
-        left: 5%;
+        left: 10%;
         width: 17.75rem;
     }
     /* popup */
